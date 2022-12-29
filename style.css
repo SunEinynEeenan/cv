@@ -8,7 +8,7 @@ body{
 
 aside{
     font-size: .9rem;
-    width: 420px;
+    max-width: 420px;
     margin:auto;
     border: 3px double black;
     padding: 2ch;
