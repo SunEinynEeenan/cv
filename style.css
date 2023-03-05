@@ -109,7 +109,7 @@ header{
 }
 
 article{
-    border: 3px ridge black;
+    border: 4px ridge rgb(255, 0, 0);
     padding: 0%;
     background-color: antiquewhite;
     /* overflow-y:auto; */
@@ -117,7 +117,8 @@ article{
     /* overflow-x: visible; */
     height: 400px;
     overflow: scroll;
-    width: 450px;
+    width: 90vw;
+    max-width: 450px;
     margin-top: 8%;
 
 }
@@ -128,6 +129,10 @@ summary{
     margin: 0ch 0ch 1ch 0ch; 
     /* text-ali gn: right; */
 
+}
+
+iframe{
+    width: 100%;
 }
 
 /* .details{
@@ -165,6 +170,7 @@ img{
 
 
 
+
 #bc{
     background-color: rgb(9, 131, 74);
     color: white;
@@ -191,3 +197,4 @@ img{
 
 
 }
+
