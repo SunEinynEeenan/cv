@@ -102,7 +102,17 @@ li{
     grid-auto-flow: column; */
 }
 
+.columnLeft{
+    order: 2
+}
 
+.columnCenter{
+    order: 1;
+}
+
+.columnRight{
+    order: 3;
+}
 
 header{
     text-align: center;
